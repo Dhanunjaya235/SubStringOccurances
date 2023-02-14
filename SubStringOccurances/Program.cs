@@ -50,5 +50,11 @@
                 return $"The number of times the substring occured in the main string is : {count} \n The indexes at which it occured are {indexes}";
             }
         }
+
+
+        public void Display()
+        {
+            Console.WriteLine("A new method added after creating a repository");
+        }
     }
 }
